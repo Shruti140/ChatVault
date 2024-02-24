@@ -2,7 +2,7 @@ document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
             document.title = "ChatVault - Message Safely";
-            $(".logo").attr("href", "assets/logo.png");
+            $("#logo").attr("href", "assets/images/logo.png");
         }
     });
 
